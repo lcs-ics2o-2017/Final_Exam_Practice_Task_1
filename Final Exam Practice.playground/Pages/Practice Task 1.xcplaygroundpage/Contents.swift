@@ -7,9 +7,9 @@ import PlaygroundSupport
  
  Your goal is to precisely reproduce this image:
  
- ![blur](blur.png "Blur")
- 
- 
+ ![blur-no-grid](blur-no-grid.png "Blur")
+ ![blur-with-grid](blur-with-grid.png "Blur")
+
  By precisely reproducing this image, you will demonstrate your understanding of:
  
  * sequence (order of statements in a program)
