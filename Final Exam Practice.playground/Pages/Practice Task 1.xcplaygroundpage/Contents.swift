@@ -19,15 +19,20 @@ import PlaygroundSupport
  You can use the **Digital Color Meter** app (already installed on your Mac) to find specific colours as RGB (red-green-blue) codes.
  
  You [can use this site](http://www.workwithcolor.com/color-converter-01.htm) to convert colours to HSB to use with the Canvas class.
+ 
+ Or, if you wish, you may use the color constant created below.
 */
 
 // Create a canvas object to use
 let canvas = Canvas(width: 400, height: 600)
 
+// COLORS
+let lightBlue = Color(hue: 193, saturation: 81, brightness: 84, alpha: 100)
+
 // Begin your solution here...
 
 // REMINDER: here's how to create a square with a fill
-canvas.fillColor = Color(hue: 56, saturation: 7, brightness: 56, alpha: 100)
+canvas.fillColor = lightBlue
 canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 50, height: 50)
 
 // REMINDER: here's how to create text in a certain location
